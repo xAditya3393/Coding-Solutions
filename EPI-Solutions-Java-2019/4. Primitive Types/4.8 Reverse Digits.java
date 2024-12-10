@@ -1,5 +1,10 @@
 /*
 
+
+Important questions 
+what the input int limits - if Integer.MIN_VALUE <= inoutInt <= Integer.MAX_VALUE, we need to consider for overflow/underflow
+
+
 Brute Force 
 convert input into string and reverse 
 
@@ -21,11 +26,6 @@ result initialised to zero
 2. 23 -> reminder - 3, quotient - 2, result - 4*10 + 3
 3. 2 -> reminder - 2, quotient - 0, result - 43*10 + 2
 4. stop, final answer - 432
-
-
-
-Important questions 
-what the input int limits - if Integer.MIN_VALUE <= inoutInt <= Integer.MAX_VALUE, we need to consider for overflow/underflow
 
 
 */
