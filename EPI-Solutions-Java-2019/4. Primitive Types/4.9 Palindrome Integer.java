@@ -46,6 +46,8 @@ public class Solution{
         int numberOfDigits = (int)Math.floor(Math.log10(x)) + 1;
         int mostSignificantDivider = (int)Math.pow(10, numberOfDigits-1);
 
+        //while(x != 0) -> this leads to an extra check for a single digit number, which is a palindrome 
+        //we make use of the number of digits for the iterations
         for(int itr = 0; itr < (numberOfDigits/2); ++itr){
 
             if(x%10 != x/mostSignificantDivider){
